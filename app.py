@@ -6,7 +6,7 @@ from utils.prompts import Prompts
 from css.layout import set_layout, set_header
 
 set_layout()
-set_header("Legal AI Demo")
+set_header("Ask Me")
 
 if 'start' not in st.session_state:
     st.session_state['start'] = False
@@ -15,7 +15,7 @@ if 'prompts' not in st.session_state:
 
 uploaded_file = st.file_uploader(
     "Upload your document", 
-    type=["txt", "docx"],
+    type=["txt"],
 )
 
 if uploaded_file is not None:

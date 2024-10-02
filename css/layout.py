@@ -12,15 +12,21 @@ import streamlit as st
 # Royal Blue    #0074b7
 # Navy Blue     #003b73
 
+# https://colorhunt.co/palette/f0a8d0f7b5caffc6c6ffebd4
+# #F0A8D0
+# #F7B5CA
+# #FFC6C6
+# #FFEBD4
+
 css = """
     <style>
         .stApp {
-            background-color: #41729f;
+            background-color: #F7B5CA;
         }
 
         .custom-header {
             font-size:50px;
-            color: #c3e0e5;
+            color: #F5F5F7;
             font-weight: bold;
             text-align: center;
             font-family: 'Helvetica', sans-serif;
